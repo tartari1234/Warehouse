@@ -12,6 +12,6 @@ class DummyUserSeeder extends Seeder
      */
     public function run(): void
     {
-        //
+        
     }
 }
