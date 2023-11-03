@@ -11,6 +11,34 @@
 
 {{-- class ini untuk background belakanganya blur --}}
 <body class="bg-secondary">
+  <div class="bg-white container-sm col-12 rounded px-5 py-3 pb-5">
+    <header id="header" class="fixed-top ">
+      <div class="container d-flex align-items-center">
+
+        <h1 class="logo me-auto"><a href="index.php">Nata Site</a></h1>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li>
+              <a class="nav-link scrollto" href="index.php?hal=home">Home</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="index.php?hal=contact">Contact</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="index.php?hal=contact">Contact</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="index.php?hal=contact">Contact</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="index.php?hal=contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </div>
   {{-- div ini untuk pembungkus keseluruhan content --}}
   <div class="bg-white container-sm col-6 border my-3 rounded px-5 py-3 pb-5">
     
