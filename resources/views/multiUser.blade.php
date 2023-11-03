@@ -7,7 +7,6 @@
   <title>Admin</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-  <link href="{{ asset('resources/css/nav.css') }}" rel="stylesheet">
 </head>
 
 {{-- class ini untuk background belakanganya blur --}}
@@ -41,7 +40,7 @@
     </header>
   </div>
   {{-- div ini untuk pembungkus keseluruhan content --}}
-  <div class="bg-white container-sm col-12 border my-3 rounded px-5 py-3 pb-5">
+  <div class="bg-white container-sm col-6 border my-3 rounded px-5 py-3 pb-5">
     
     {{-- ini adalah kata kata header di paling atas --}}
     <h1>Halo!! {{ Auth::user()->name }}</h1> {{-- ini sudah di logic klo yang login user atau admin --}}
